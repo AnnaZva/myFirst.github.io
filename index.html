@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-визитка | Иван Иванов</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">ИванИванов<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главный экран -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Привет, я <span class="highlight">Иван Иванов</span></h1>
+                <h2 class="hero-subtitle">Frontend разработчик и дизайнер</h2>
+                <p class="hero-description">Создаю современные, адаптивные и интуитивно понятные веб-сайты и приложения, которые помогают бизнесу достигать целей.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">Мои работы</a>
+                    <a href="#contact" class="btn btn-secondary">Связаться</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Иван Иванов">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Я frontend-разработчик с 5-летним опытом создания веб-приложений. Специализируюсь на HTML, CSS, JavaScript и современных фреймворках.</p>
+                    <p>Моя страсть — создание интуитивно понятных пользовательских интерфейсов, которые решают реальные бизнес-задачи. Я постоянно изучаю новые технологии и подходы в веб-разработке.</p>
+                    <p>В свободное время участвую в open-source проектах, пишу технические статьи и преподаю основы веб-разработки начинающим программистам.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Имя:</span>
+                            <span class="info-value">Иван Иванов</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Город:</span>
+                            <span class="info-value">Москва</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">ivan@example.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Телефон:</span>
+                            <span class="info-value">+7 (999) 123-45-67</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-text">Завершенных проектов</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-text">Лет опыта</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">40+</div>
+                        <div class="stat-text">Довольных клиентов</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-text">Сертификатов</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Мои навыки</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <div class="skill-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML/CSS</h3>
+                    </div>
+                    <p>Семантическая верстка, адаптивный дизайн, препроцессоры CSS, CSS Grid, Flexbox.</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-header">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <p>ES6+, работа с DOM, асинхронное программирование, React, Vue.js.</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-header">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>UI/UX дизайн</h3>
+                    </div>
+                    <p>Проектирование пользовательских интерфейсов, прототипирование, Figma, Adobe XD.</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-header">
+                        <i class="fab fa-react"></i>
+                        <h3>React</h3>
+                    </div>
+                    <p>Разработка SPA-приложений, хуки, контекст, Redux, Next.js.</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 88%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Портфолио</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="web">Веб-сайты</button>
+                <button class="filter-btn" data-filter="app">Приложения</button>
+                <button class="filter-btn" data-filter="design">Дизайн</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80" alt="Корпоративный сайт">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Корпоративный сайт</h3>
+                        <p>Разработка сайта для IT-компании</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80" alt="Мобильное приложение">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Финансовое приложение</h3>
+                        <p>React Native приложение для управления финансами</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1664&q=80" alt="UI/UX дизайн">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>UI/UX для стартапа</h3>
+                        <p>Полный дизайн интерфейса мобильного приложения</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1715&q=80" alt="Интернет-магазин">
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Интернет-магазин</h3>
+                        <p>E-commerce платформа с кастомной CMS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь со мной</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Адрес</h3>
+                            <p>г. Москва, ул. Примерная, д. 10</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Телефон</h3>
+                            <p>+7 (999) 123-45-67</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>ivan@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Рабочие часы</h3>
+                            <p>Пн-Пт: 9:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Ваш Email" required>
+                    <input type="text" placeholder="Тема" required>
+                    <textarea placeholder="Сообщение" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">ИванИванов<span>.</span></div>
+                <p class="footer-text">Frontend разработчик и дизайнер из Москвы. Создаю современные и функциональные веб-решения.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p class="copyright">© 2023 Иван Иванов. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
